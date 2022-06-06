@@ -1,22 +1,22 @@
 <template>
-  <testInput1 @inputChange="setInputValue" />
-  <testOutput1 :inputValue="inputValue" />
+  <testInput2 @inputChange="setInputValue" />
+  <testOutput2 :inputValue="inputValue" />
   <div class="border-line"></div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import testInput1 from "./testInput1.vue";
-import testOutput1 from "./testOutput1.vue";
+import testInput2 from "./testInput2.vue";
+import testOutput2 from "./testOutput2.vue";
 export default defineComponent({
-  name: "parentOne",
+  name: "parentTwo",
   components: {
-    testInput1,
-    testOutput1,
+    testInput2,
+    testOutput2,
   },
   data() {
     return {
-      inputValue: "aboli",
+      inputValue: "bumbieri",
     };
   },
   methods: {

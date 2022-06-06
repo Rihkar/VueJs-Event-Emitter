@@ -1,17 +1,15 @@
 <template>
-  <input
-    @change="inputChange"
-    v-model="inputValue"
-    type="text"
-    placeholder="man garso..."
-  />
+  <form @submit.prevent="inputChange" action="">
+    <input v-model="inputValue" type="text" placeholder="man negarso..." />
+    <button>add</button>
+  </form>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "testInputOne",
+  name: "testInputTwo",
   emits: ["inputChange"],
   data() {
     return {

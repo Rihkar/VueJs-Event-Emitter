@@ -11,7 +11,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import output1 from "../components/pabeigtais md ar emit/box1/input1.vue";
+import output1 from "../components/pabeigtais md ar emit/box1/output1.vue";
 import output2 from "../components/pabeigtais md ar emit/box2/output2.vue";
 import output3 from "../components/pabeigtais md ar emit/box3/output3.vue";
 import output4 from "../components/pabeigtais md ar emit/box4/output4.vue";
